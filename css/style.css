@@ -13,11 +13,12 @@ a{
 
 
 a:link. a:visited {
-
+    color: #cf5c3f;
 }
 
 a:hover, a:active{
-
+    background-color: #cf5c3f;
+    color: #fff;
 }
 .body{
     margin: 0 auto;
@@ -116,6 +117,12 @@ a:hover, a:active{
     -webkit-border-radius: 5px;
 }
 
+.post-info{
+    font-style: italic;
+    font-size: 90%;
+    color: #999;
+}
+
 .middle-sidebar{
     width: 21%;
     padding: 2% 3%;
@@ -146,6 +153,7 @@ a:hover, a:active{
 .mainFooter{
     width: 100%;
     float: left;
+    height: 40px;
     background-color: #666;
     margin-top: 2%;
     border-radius: 5px;
@@ -156,5 +164,6 @@ a:hover, a:active{
 
 .mainFooter p{
     width: 92%;
-    margin: 2% auto;
+    margin: 10px auto;
+    color: #fff;
 }
