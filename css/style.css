@@ -73,3 +73,34 @@ a:hover, a:active{
     -webkit-border-radius: 5px;
 }
 
+.mainContent {
+    line-height: 25px;
+    overflow: hidden;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content{
+    width: 70%;
+    float: left;
+}
+
+.topcontent{
+    background-color: #fff;
+    padding: 3% 5%;
+    margin-top: 2%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.bottomcontent{
+    background-color: #fff;
+    padding: 3% 5%;
+    margin-top: 2%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
